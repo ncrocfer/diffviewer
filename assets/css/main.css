@@ -36,7 +36,20 @@ h3 {
 }
 
 .editor-title {
-	font-size: 17px;
+	clear: both;
+	display: block;
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.05);
+	text-shadow: 1px 1px 0 white;
+	border: 1px solid #E1E1E8;
+	border-radius: 2px 2px 0 0;
+	border-bottom: none;
+	color: #2F5771;
+	font-size: 14px;
+	font-weight: bold;
+	width: 437px;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 20px;
 }
 
 .editor {
@@ -84,7 +97,7 @@ h3 {
 	width: 3em;
 	background-color: #ECECEC;
 	border-right: 1px solid #DDD;
-	color: #AAA;
+	color: #888;
 	font-weight: normal;
 }
 
@@ -115,4 +128,21 @@ h3 {
 
 .Differences ins, .Differences del {
 	text-decoration: none;
+}
+
+.CodeMirror {
+	border: 1px solid #E1E1E8;
+	height: auto;
+}
+
+.CodeMirror-linenumber {
+	text-align: center;
+}
+
+.CodeMirror-activeline-background {
+	background: #333 !important;
+}
+
+.CodeMirror-scroll {
+	min-height: 280px;
 }
