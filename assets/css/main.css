@@ -1,0 +1,118 @@
+body {
+	background: #DDDCE2 url(../img/content_bg.png) repeat left top;
+	padding-top: 60px;
+}
+
+h3 {
+	font-size: 23px;
+}
+
+.main-container {
+	margin-top: 30px;
+}
+
+.navbar-inner {
+	background: url("../img/nav_bg.jpg") 0 0 repeat;
+}
+
+.hero-unit {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.05);
+	margin-bottom: 40px;
+	padding: 10px 40px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	border: 1px solid #DDDDDD;
+}
+
+.hero-unit h3 {
+	color: #2F5771;
+	text-shadow: 1px 1px 0 white;
+	margin-bottom: 5px;
+}
+
+.hero-unit p {
+	font-size: 16.5px;
+}
+
+.editor-title {
+	font-size: 17px;
+}
+
+.editor {
+	width: 97%;
+}
+
+.button {
+	margin-top: 20px;
+}
+
+.Differences {
+	width: 100%;
+	border: 1px solid #CCC;
+	border-collapse: collapse;
+	border-spacing: 0;
+	empty-cells: show;
+	margin-bottom: 35px;
+	font-family: Courier;
+	font-size: 12px;
+}
+
+.Differences thead {
+	font-weight: normal;
+	text-aling: left;
+	height: 2em;
+	border-bottom: 1px solid #DDD;
+	background: -moz-linear-gradient(top, #FAFAFA, #ECECEC);
+	background: -webkit-gradient(linear, left top, left bottom, from(#FAFAFA), to(#ECECEC));
+	background: -moz-linear-gradient(top, #FAFAFA, #ECECEC);
+}
+
+.Differences thead {
+	font-weight: normal;
+}
+
+.Differences thead th {
+	padding: 9px;
+	text-align: left;
+}
+
+.Differences tbody th {
+	text-align: center;
+	min-width: 3em;
+	max-width: 3em;
+	width: 3em;
+	background-color: #ECECEC;
+	border-right: 1px solid #DDD;
+	color: #AAA;
+	font-weight: normal;
+}
+
+.Differences td {
+	padding: 1px 2px;
+	font-family: Consolas, monospace;
+	font-size: 13px;
+	background-color: ghostWhite;
+}
+
+.DifferencesInline .ChangeReplace .Left, .DifferencesInline .ChangeDelete .Left {
+	background: #fdd;
+}
+
+.DifferencesInline .ChangeReplace del {
+	background: #e99;
+	text-decoration: none;
+}
+
+.DifferencesInline .ChangeReplace .Right, .DifferencesInline .ChangeInsert .Right {
+	background: #dfd;
+}
+
+.DifferencesInline .ChangeReplace ins {
+	background: #9e9;
+	text-decoration: none;
+}
+
+.Differences ins, .Differences del {
+	text-decoration: none;
+}
