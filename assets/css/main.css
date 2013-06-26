@@ -11,12 +11,51 @@ footer {
 	margin-top: 50px;
 }
 
+#forkme {
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: 0;
+	z-index: 3000;
+}
+
 .main-container {
 	margin-top: 30px;
 }
 
+.navbar .nav.pull-right {
+	top: 10px;
+}
+
 .navbar-inner {
 	background: url("../img/nav_bg.jpg") 0 0 repeat;
+}
+
+.navbar .brand {
+	font-size: 28px;
+	color: #FAFAFA;
+	line-height: 32px;
+}
+
+.nav .github-icon {
+	background: url("../img/github-icon.png") no-repeat scroll 0 0 transparent;
+	height: 32px;
+	width: 32px;
+	padding: 0 20px 0 0 !important;
+}
+
+.nav .twitter-icon {
+	background: url("../img/twitter-icon.png") no-repeat scroll 0 0 transparent;
+	height: 32px;
+	width: 32px;
+	padding: 0 20px 0 0 !important;
+}
+
+.nav .home-icon {
+	background: url("../img/home-icon.png") no-repeat scroll 0 0 transparent;
+	height: 32px;
+	width: 32px;
+	padding: 0 !important;
 }
 
 .hero-unit {

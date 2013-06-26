@@ -16,12 +16,23 @@
 <body>
 	<div class="container main-container">
 
+		<a href="#" id="forkme">
+			<img src="<?php echo base_url();?>assets/img/forkme_right_white.png">
+		</a>
+
 		<div class="navbar navbar-fixed-top" style="opacity: 1;">
             <div class="navbar-inner">
                 <div class="container">
                     <a class="brand scroller" data-section="body" href="<?php echo base_url(); ?>">
-                        <img src="http://opendiff-local.fr/assets/img/logo.png" alt="logo">
+                        DiffViewer
                     </a>
+                    <div>
+                    	<ul class="nav pull-right">
+                    		<li><a href="http://www.github.com/ncrocfer" class="github-icon"></a></li>
+                    		<li><a href="http://www.twitter.com/shatter_" class="twitter-icon"></a></li>
+                    		<li><a href="http://www.shatter.fr" class="home-icon"></a></li>
+                    	</ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -58,7 +69,7 @@
 
 		<div class="row">
 			<footer class="pull-right">
-                <p>by <a href="https://twitter.com/shatter_" target="_blank">Nico</a> - Thanks to <a href="http://codeigniter.com/" target="_blank">CI</a>, <a href="http://twitter.github.com/bootstrap/" target="_blank">Bootstrap</a> and <a href="https://github.com/chrisboulton" target="_blank">Chris</a></p>
+                <p>thanks <a href="http://codeigniter.com/" target="_blank">CI</a>, <a href="http://twitter.github.com/bootstrap/" target="_blank">Bootstrap</a> and <a href="https://github.com/chrisboulton" target="_blank">Chris</a></p>
             </footer>
 		</div>
 
