@@ -28,11 +28,10 @@
 
         <?php if(!$show_diff): ?>
 			<div class="hero-unit">
-		    	<h3>DiffViewer : Online Diff Viewer</h3>
-		    	<p>This online tool allows you to quickly see the differences between two versions of a file.</p>
+		    	<h3>DiffViewer : Online Diff Tool</h3>
+		    	<p>This online tool allows you to quickly see the differences between two pieces of text. Press <strong>F11</strong> when cursor is in one of the two editors to toggle full screen editing. <strong>Esc</strong> can be used to exit full screen editing.</p>
 			</div>
 		<?php else: ?>
-			<h3>Result :</h3>
 			<?php echo $render; ?>
 		<?php endif; ?>
 
@@ -57,6 +56,12 @@
 
 		</div>
 
-</div>
+		<div class="row">
+			<footer class="pull-right">
+                <p>by <a href="https://twitter.com/shatter_" target="_blank">Nico</a> - Thanks to <a href="http://codeigniter.com/" target="_blank">CI</a>, <a href="http://twitter.github.com/bootstrap/" target="_blank">Bootstrap</a> and <a href="https://github.com/chrisboulton" target="_blank">Chris</a></p>
+            </footer>
+		</div>
+
+	</div>
 </body>
 </html>
