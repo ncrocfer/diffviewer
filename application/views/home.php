@@ -50,12 +50,12 @@
 			<?php echo form_open(); ?>
 			<div class="span6">
 				<div class="editor-title text-center">Version 1</div>
-				<textarea rows="10" class="editor" name="editor1" id="editor1"></textarea>
+				<textarea rows="10" class="editor" name="editor1" id="editor1"><?php echo set_value('editor1'); ?></textarea>
 			</div>
 
 			<div class="span6">
 				<div class="editor-title text-center">Version 2</div>
-				<textarea rows="10" class="editor" name="editor2" id="editor2"></textarea>
+				<textarea rows="10" class="editor" name="editor2" id="editor2"><?php echo set_value('editor2'); ?></textarea>
 			</div>
 
 			<span class="span12">

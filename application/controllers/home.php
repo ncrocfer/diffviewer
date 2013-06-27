@@ -28,8 +28,6 @@ class Home extends CI_Controller {
 
 			$data = array(
 				'show_diff' => True,
-				'editor1' => $editor1,
-				'editor2' => $editor2,
 				'render' => $render
 			);
 		}
