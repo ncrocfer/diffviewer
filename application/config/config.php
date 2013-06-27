@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost/diffviewer';
+$config['base_url']	= 'http://diffviewer.shatter.fr';
 
 /*
 |--------------------------------------------------------------------------
