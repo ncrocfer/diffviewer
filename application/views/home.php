@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset=utf-8 />
-	<title></title>
+	<title>DiffViewer : Online Diff Tool</title>
 	<link rel="stylesheet" type="text/css" media="screen" href="<?php echo base_url(); ?>assets/css/bootstrap.min.css" />
 	<link rel="stylesheet" type="text/css" media="screen" href="<?php echo base_url(); ?>assets/css/codemirror.css" />
 	<link rel="stylesheet" type="text/css" media="screen" href="<?php echo base_url(); ?>assets/css/ambiance.css" />
