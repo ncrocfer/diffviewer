@@ -16,7 +16,7 @@
 <body>
 	<div class="container main-container">
 
-		<a href="#" id="forkme">
+		<a href="https://github.com/ncrocfer/diffviewer" id="forkme">
 			<img src="<?php echo base_url();?>assets/img/forkme_right_white.png">
 		</a>
 
