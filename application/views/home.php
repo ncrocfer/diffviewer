@@ -69,7 +69,7 @@
 
 		<div class="row">
 			<footer class="pull-right">
-                <p>thanks <a href="http://codeigniter.com/" target="_blank">CI</a>, <a href="http://twitter.github.com/bootstrap/" target="_blank">Bootstrap</a> and <a href="https://github.com/chrisboulton" target="_blank">Chris</a></p>
+                <p>thanks <a href="http://codeigniter.com/" target="_blank">CI</a>, <a href="http://twitter.github.com/bootstrap/" target="_blank">Bootstrap</a> and <a href="https://github.com/chrisboulton/php-diff" target="_blank">Chris</a></p>
             </footer>
 		</div>
 
